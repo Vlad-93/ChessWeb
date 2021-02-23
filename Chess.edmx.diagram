@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26eac5c36a9a4cdbbcc7d49780a8b62f" Name="Diagram1">
+        <EntityTypeShape EntityType="ChessOpeningModel.Debut" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.GameMove" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.Game" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.GameType" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.RankPlayer" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.ResultGame" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.sysdiagram" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.Gender" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.Player" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChessOpeningModel.PlayersOld" Width="1.5" PointX="7.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Games_Debuts" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_GameMoves_Games" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Games_GameType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Games_Players_Black" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Games_Players_White" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Games_ResultGame" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Players_RankPlayer" ManuallyRouted="false" />
+        <AssociationConnector Association="ChessOpeningModel.FK_Players_Gender" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
